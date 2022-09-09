@@ -1,0 +1,23 @@
+{
+  "name": "Deployment",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "eslint": "eslint --quiet / --fix"
+  },
+  "devDependencies": {
+    "eslint": "^7.31.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-sort-imports-es6-autofix": "^0.5.0",
+    "prettier": "^2.2.0"
+  },
+  "dependencies": {
+    "@octokit/request": "^5.6.1",
+    "any-leaf": "^1.2.2",
+    "fs": "^0.0.1-security",
+    "mustache": "^4.2.0",
+    "path": "^0.12.7"
+  }
+}
